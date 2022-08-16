@@ -34,6 +34,11 @@ def gallery():
 def contact():
   
     return render_template("contact.html")
+  
+@app.route('/resume')
+def resume():
+  
+    return render_template("resume.html")
 
 @app.route('/decision')
 def model1():
